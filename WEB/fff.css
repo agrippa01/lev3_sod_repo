@@ -1,0 +1,16 @@
+body {
+background-color:teal;
+border: 2px solid black;
+width: 200px;
+weight: 100px;
+position: relative;
+top: 80px;
+padding: 20px;
+margin: left;
+}
+h1{
+background-color: lightblue;	
+color: marron;
+margin-left: 40px;
+
+}

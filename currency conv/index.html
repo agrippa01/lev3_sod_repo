@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ONLINE CURRENCY CONVERTER</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body style="background-image: url(a.jpg); background-size: cover;">
+	<style>
+        h2{
+            color:goldenrod;
+        }
+        label{
+            color:black;
+        }
+    </style>
+	<center>
+		<div class="container">
+	<div class="main">
+		<h2 class="title">ONLINE CURRENCY CONVERTER</h2>
+		<label for="amount">amount:</label>
+		<div class>
+<input type="number" class="from control" id="amount">
+		<div class="field">
+			<div class="input">
+				<label class="desc">From_Currency: </label>
+	
+				<select id="from_currency">
+					<option value="USD">USD</option>
+					<option value="EURO">EURO</option>
+					<option value="CAD">CAD</option>
+					<option value="RWF">RWF</option>
+				</select>
+			</div>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<div class="input">
+				<label class="desc">To Currency: </label>
+				<select id="to_currency">
+					<option value="USD">USD</option>
+					<option value="EURO">EURO</option>
+					<option value="CAD">CAD</option>
+					<option value="RWF">RWF</option>
+				</select>
+
+			</div>
+		</div>
+		
+		<div class="mid">
+			<button class="convert" onclick="convertercurrency()">Convert</button>	
+			<p class="result">Result: <span id="result"></span></p>
+		</div>
+	</div>
+	</div>
+</center>
+<script src="main.js"></script>
+</tr>
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{
+	font-family: impact;
+	font-size: 3vh;
+}
+.main{
+	margin-top: 150px;
+}
+.title{
+	font-size: 40px;
+	text-decoration: underline;
+	text-shadow: 0 0 8px;
+	color: salmon;
+}
+.field{
+	margin-top: 60px;
+	display: flex;	
+	justify-content: center;
+}
+select{
+	border-radius: 10px;
+	border: none;
+	padding: 2px 10px;
+}
+.mid{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+.mid p{
+	margin-left: 150px;
+}
+.mid button{
+	border-radius: 20px;
+	border: none; 
+	background: white;
+	padding:  15px;  
+}
+.convert{
+	transition: 0.2s;
+	cursor: pointer;
+}
+.convert:hover{
+	background-color:white;
+}
+.convert:active{
+	background-color: white;
+}
+
+input{
+	border-radius: 15%;
+}
+button{
+	font-size: 20px;
+	width: 20%;
+	padding: 10px;
+	 transition: 3s;
+  border-radius: 20px;
+  border: 1px solid;
+  background-color: white;
+  color: black;
+  font-family: IMPACT;
+  font-style: oblique;  
+  transition: 3s; 
+}
+
+button:hover{
+	width: 30%;
+	background: linear-gradient(to right, yellow, blue, green);
+}
+.container{
+	background: transparent;
+	backdrop-filter: blur(10px);
+	border: 1px solid;
+	border-radius: 20px;
+	width: 70%;
+	padding: 10px;
+}
